@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="N26 API Assignment test suite" >
+    <test name="API Test">
+        <classes>
+            <class name="com.n26.tests.PetServiceTest"/>
+            <class name="com.n26.tests.StoreServiceTest"/>
+            <class name="com.n26.tests.UserServiceTest"/>
+        </classes>
+    </test>
+</suite>
