@@ -25,6 +25,29 @@ Run tests from command line
 mvn clean test
 ```
 
+## Outline of automating proposed scenarios on different levels of testing pyramid.
+API test automation falls under Middle Layer (Integration Testing) of test Pyramid, as API act as bridge between
+UI/Presentation and Application Code
+
+The Main layers in Test Pyramids are :
+UI/Exploratory tests (Top)
+Integration tests (Middle)
+Unit tests (Bottom)
+
+
+Pros:
+- Lower Cost
+- Quick to Execute
+- Less Integration compare to UI Test
+- More Reliable
+- Early Bug detection
+
+Cons:
+- May require certain technical expertise
+- Not real user interaction
+- Cannot provide clarity on usability of Application 
+- Difficult to Understand
+
 ## Test Scenarios 
 ### Pet Endpoint
 - POST: Creating a new pet and uploading image
